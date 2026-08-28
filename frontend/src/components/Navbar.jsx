@@ -5,7 +5,7 @@ export default function Navbar() {
   const { user, logout } = useAuth();
   return (
     <nav className='navbar'>
-      <span className='brand'>Gestion de Medecin</span>
+      <span className='brand'>ClinicManager</span>
       <div>
         <Link to='/ajout'>Ajout</Link>
         <Link to='/liste'>Liste </Link>
